@@ -1,0 +1,62 @@
+/* Write your CSS code here. */
+.main-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feedback-container {
+  border-radius: 20px;
+  width: 66%;
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+}
+
+.heading-style {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+.thank-you-img-style {
+  width: 70px;
+}
+
+.thank-you-para {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.emoji-btn {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.emoji-image {
+  width: 60px;
+  margin: 5px;
+}
+
+.emoji-name {
+  color: #1e293b;
+  font-family: roboto;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.each-emoji-container {
+  list-style: none;
+}
